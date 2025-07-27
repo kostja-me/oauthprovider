@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "usermodel.apps.UsermodelConfig",
     "speedpycom",
     "mainapp.apps.MainappConfig",
+    "oauth2_provider",
 ]
 
 MIDDLEWARE = [
