@@ -217,4 +217,6 @@ DEFAULT_FROM_EMAIL = env("DEFAULT_FROM_EMAIL", default="support@example.com")
 
 DEFAULT_ADMIN_PASSWORD = env("DEFAULT_ADMIN_PASSWORD", default=None)
 DEMO_MODE = env.bool("DEMO_MODE", default=False)  # fills login and password on login form for demo purposes
-OIDC_ENABLED = True
+OAUTH2_PROVIDER = {
+    'OIDC_ENABLED': True
+}
